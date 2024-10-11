@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<h2>Bem-vindo à Autoescola</h2>
+<p>Você está logado como {{ user.username }}</p>
+<ul>
+    <li><a href="#">Gerenciar Alunos</a></li>
+    <li><a href="#">Gerenciar Instrutores</a></li>
+    <li><a href="#">Agendar Aulas</a></li>  <!-- Link placeholder -->
+</ul>
+{% endblock %}
